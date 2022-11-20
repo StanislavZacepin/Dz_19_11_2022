@@ -1,9 +1,6 @@
-import entity.Gender;
 import entity.People;
-import model.Check;
 import model.ScannerText;
-
-import java.util.Scanner;
+import  model.Record;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,6 +8,7 @@ public class Main {
         People scan = ScannerText.scannerText();
         System.out.println(scan.getLastName() + " " + scan.getFirstName() + " " + scan.getPatronymic() + " "
                 + scan.getBirthdate() + " " + scan.getPhoneNumber() + " " + scan.getGender());
-
+        Record.findDirectory();
+        Record.record(scan);
     }
 }

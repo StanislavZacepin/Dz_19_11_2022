@@ -1,9 +1,5 @@
 package model;
-
-import entity.Gender;
 import entity.People;
-
-import java.util.Locale;
 import java.util.Scanner;
 
 public class ScannerText {
@@ -32,7 +28,7 @@ public class ScannerText {
             System.out.print("Напишите номер телефона: ");
             people.setPhoneNumber(Check.checkPhoneNumber(in.nextLine()));
 
-            System.out.print("Напишите без кавычек \"m\" Если пол мурской или \"w\" женский: ");
+            System.out.print("Напишите без кавычек \"м\" или \"m\" если пол мужской. Если пол женский \"ж\" или \"w\" : ");
             String gender = in.nextLine();
             people.setGender(Check.checkGendr(gender));
 

@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9259ce5-dbdb-4bb1-9f21-4c83bdde8726" name="Changes" comment="Создания масива из текста который вёл пользователь. Сделать два исключения. Если пользователь вёл больше или меньше данных.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Check.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="af98aae9-2c9e-4e4b-a7bf-5f356f92318e" name="Changes" comment="Переделования логики. Создания Класса ScannerText. Чтобы пользователь не сразу всё водил, а постепено и была проверка на дате рождения и на номер телефонаи и выбор гендара. Создания класса проверки: номера и дату рождения, пола. Создания сущности человека на которого записываються данные, для того чтобы потом записать его в файл. Создания enum Gender для определения пола.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Record.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/ScannerText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ScannerText.java" afterDir="false" />
     </list>
@@ -26,13 +22,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
