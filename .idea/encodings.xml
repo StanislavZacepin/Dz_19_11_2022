@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/Dz2/WrongException/WrongLoginException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Dz2/WrongException/WrongPasswordException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Dz2/model/CheckDz2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Dz2/model/Record.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Dz2/model/ScannerLoginAndPasword.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/Main.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/entity/Gender.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/entity/People.java" charset="UTF-8" />
