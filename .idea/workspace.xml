@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af98aae9-2c9e-4e4b-a7bf-5f356f92318e" name="Changes" comment="Создания класса Record и внём два метода оидн создаёт папку в каталоге если её нету. второй записывает файл информацию. если такой файл уже есть то с новой строчки записывает. Рефакторинг кода ScannerText дополнил информацию. Везде написал коментарии.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dz2/WrongException/WrongLoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dz2/WrongException/WrongPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dz2/model/CheckDz2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dz2/model/ScannerLoginAndPasword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="988c0d1f-05e7-49cc-b83c-e24cbd130acd" name="Changes" comment="Дз2 создания Класса ScannerLoginAndPasword для сканирования текста пользователя. После каждого видения текста идёт проверка по требованиям. Созданы классы WrongLoginException и WrongPasswordException исключения. Спецально по Если проверка требований не подходит" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,26 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/Users/777/IdeaProjects/Dz_19_10_2022/src/main/java/Dz2",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/777/IdeaProjects/Dz_19_10_2022&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\777\IdeaProjects\Dz_19_10_2022\src\main\java\Dz2" />
-    </key>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="af98aae9-2c9e-4e4b-a7bf-5f356f92318e" name="Changes" comment="Создания класса Record и внём два метода оидн создаёт папку в каталоге если её нету. второй записывает файл информацию. если такой файл уже есть то с новой строчки записывает. Рефакторинг кода ScannerText дополнил информацию. Везде написал коментарии." />
+      <changelist id="b9259ce5-dbdb-4bb1-9f21-4c83bdde8726" name="Changes" comment="" />
       <created>1668850719542</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -83,14 +70,7 @@
       <option name="project" value="LOCAL" />
       <updated>1668869409764</updated>
     </task>
-    <task id="LOCAL-00003" summary="Создания класса Record и внём два метода оидн создаёт папку в каталоге если её нету. второй записывает файл информацию. если такой файл уже есть то с новой строчки записывает. Рефакторинг кода ScannerText дополнил информацию. Везде написал коментарии.">
-      <created>1668961807974</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1668961807974</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -118,7 +98,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Начало создание проекта" />
     <MESSAGE value="Создания масива из текста который вёл пользователь. Сделать два исключения. Если пользователь вёл больше или меньше данных." />
-    <MESSAGE value="Создания класса Record и внём два метода оидн создаёт папку в каталоге если её нету. второй записывает файл информацию. если такой файл уже есть то с новой строчки записывает. Рефакторинг кода ScannerText дополнил информацию. Везде написал коментарии." />
-    <option name="LAST_COMMIT_MESSAGE" value="Создания класса Record и внём два метода оидн создаёт папку в каталоге если её нету. второй записывает файл информацию. если такой файл уже есть то с новой строчки записывает. Рефакторинг кода ScannerText дополнил информацию. Везде написал коментарии." />
+    <option name="LAST_COMMIT_MESSAGE" value="Создания масива из текста который вёл пользователь. Сделать два исключения. Если пользователь вёл больше или меньше данных." />
   </component>
 </project>
